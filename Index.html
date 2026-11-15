@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Musthafa NK | Hair Stylist & Entrepreneur in Dubai</title>
+<meta name="description" content="Musthafa NK is a hair stylist and entrepreneur based in Dubai, UAE, with 10+ years of experience in modelling hair styling and international hair cutting.">
+<meta name="theme-color" content="#0f1012">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Musthafa NK | Hair Stylist & Entrepreneur in Dubai">
+<meta property="og:description" content="10+ years in the styling industry. Modelling hair styling and international hair cutting.">
+<meta property="og:image" content="20260415_224658.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Musthafa NK","jobTitle":"Hair Stylist & Entrepreneur","address":{"@type":"PostalAddress","addressLocality":"Dubai","addressCountry":"AE"},"sameAs":["https://www.instagram.com/musthu567"]}
+</script>
+<style>
+:root{
+  --ink:#0f1012;
+  --ink-2:#1a1c1f;
+  --bone:#efe9df;
+  --bone-2:#e3dccf;
+  --blue:#2a4bff;
+  --mute:#8d8a84;
+  --font:'Archivo','Arial Narrow','Helvetica Neue',Arial,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{font-family:var(--font);background:var(--ink);color:var(--bone);line-height:1.55;font-size:1.0625rem;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--bone);color:var(--ink);padding:10px 16px;z-index:300}
+.skip:focus{left:8px}
+.wrap{max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,48px)}
+
+/* ---------- NAV ---------- */
+.nav{position:fixed;top:0;left:0;right:0;z-index:100;mix-blend-mode:normal}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-stretch:75%;font-weight:800;font-size:1.15rem;letter-spacing:.02em;text-decoration:none;text-transform:uppercase}
+.nav ul{display:flex;gap:28px;list-style:none;align-items:center}
+.nav a.l{text-decoration:none;font-size:.95rem;font-weight:500;opacity:.8;transition:opacity .2s}
+.nav a.l:hover{opacity:1}
+.pill{background:var(--bone);color:var(--ink);text-decoration:none;font-weight:700;font-size:.9rem;padding:10px 22px;border-radius:99px;transition:background .2s,color .2s}
+.pill:hover{background:var(--blue);color:#fff}
+.menu-btn{display:none;background:none;border:0;color:var(--bone);font:inherit;font-weight:700;font-size:.95rem;cursor:pointer;padding:8px 0}
+
+/* ---------- HERO ---------- */
+.hero{position:relative;min-height:100svh;display:grid;grid-template-columns:1fr 1fr;align-items:end;overflow:hidden;padding-top:68px}
+.hero-photo{position:absolute;top:0;right:0;bottom:0;width:56%}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 20%;filter:grayscale(.15) contrast(1.05)}
+.hero-photo::after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,var(--ink) 0%,rgba(15,16,18,0) 38%),linear-gradient(0deg,var(--ink) 0%,rgba(15,16,18,0) 30%)}
+.hero-copy{position:relative;z-index:2;grid-column:1/-1;padding-bottom:clamp(36px,6vw,72px)}
+h1{font-stretch:62%;font-weight:900;text-transform:uppercase;line-height:.84;letter-spacing:-.01em;font-size:clamp(5.2rem,21vw,19rem);margin-left:-.04em}
+h1 span{display:block;overflow:hidden}
+h1 span i{display:block;font-style:normal;transform:translateY(105%);animation:up 1s cubic-bezier(.2,.8,.2,1) forwards}
+h1 span:nth-child(2) i{animation-delay:.12s;color:var(--blue)}
+@keyframes up{to{transform:none}}
+.hero-meta{display:flex;flex-wrap:wrap;gap:20px 48px;align-items:flex-end;justify-content:space-between;margin-top:clamp(24px,3vw,40px);border-top:1px solid rgba(239,233,223,.25);padding-top:22px}
+.hero-meta p{max-width:34ch;font-size:1.15rem;line-height:1.45}
+.hero-cta{display:flex;gap:12px;flex-wrap:wrap}
+.btn{display:inline-block;text-decoration:none;font-weight:700;padding:15px 30px;border-radius:99px;border:2px solid var(--bone);transition:all .25s;font-size:1rem}
+.btn-solid{background:var(--bone);color:var(--ink)}
+.btn-solid:hover{background:var(--blue);border-color:var(--blue);color:#fff}
+.btn-line:hover{background:var(--bone);color:var(--ink)}
+
+/* ---------- TICKER ---------- */
+.ticker{background:var(--blue);color:#fff;overflow:hidden;white-space:nowrap;padding:18px 0}
+.ticker-track{display:inline-flex;animation:tick 28s linear infinite}
+.ticker span{font-stretch:75%;font-weight:800;text-transform:uppercase;font-size:1.5rem;padding:0 28px;letter-spacing:.01em}
+.ticker span::after{content:'✂';margin-left:56px;font-weight:400}
+@keyframes tick{to{transform:translateX(-50%)}}
+
+/* ---------- ABOUT ---------- */
+.about{background:var(--bone);color:var(--ink);padding:clamp(72px,10vw,140px) 0}
+.about-grid{display:grid;grid-template-columns:5fr 7fr;gap:clamp(32px,6vw,96px)}
+.about h2{font-stretch:62%;font-weight:900;text-transform:uppercase;line-height:.9;font-size:clamp(3rem,8vw,6.5rem)}
+.about .statement{font-size:clamp(1.5rem,2.8vw,2.2rem);line-height:1.3;font-weight:500;max-width:30em;letter-spacing:-.01em}
+.facts{margin-top:48px;border-top:2px solid var(--ink)}
+.facts div{display:grid;grid-template-columns:11rem 1fr;gap:16px;padding:18px 0;border-bottom:1px solid rgba(15,16,18,.2)}
+.facts dt{font-weight:600;color:#5d5a55}
+.facts dd{font-weight:600}
+.facts a{text-decoration-thickness:2px;text-underline-offset:4px}
+.facts a:hover{color:var(--blue)}
+
+/* ---------- SERVICES ---------- */
+.services{background:var(--ink);padding:clamp(72px,10vw,140px) 0}
+.services h2{font-stretch:62%;font-weight:900;text-transform:uppercase;line-height:.9;font-size:clamp(3rem,8vw,6.5rem);margin-bottom:clamp(36px,5vw,64px)}
+.rows{list-style:none;border-top:1px solid rgba(239,233,223,.25)}
+.row{display:grid;grid-template-columns:7fr 5fr;gap:24px;align-items:center;padding:clamp(24px,3.4vw,44px) clamp(0px,1vw,12px);border-bottom:1px solid rgba(239,233,223,.25);transition:background .3s,padding .3s}
+.row h3{font-stretch:70%;font-weight:800;text-transform:uppercase;font-size:clamp(2rem,5.4vw,4.4rem);line-height:.95;letter-spacing:-.005em}
+.row p{color:#bdb8ae;max-width:40ch;transition:color .3s}
+.row:hover{background:var(--blue);padding-left:clamp(12px,2vw,28px);padding-right:clamp(12px,2vw,28px)}
+.row:hover p{color:#fff}
+
+/* ---------- QUOTE ---------- */
+.quote{background:var(--bone);color:var(--ink);padding:clamp(72px,10vw,130px) 0}
+.quote blockquote{font-stretch:68%;font-weight:800;text-transform:uppercase;font-size:clamp(2.4rem,7.4vw,6.6rem);line-height:.95;max-width:14em}
+
+/* ---------- CONTACT ---------- */
+.contact{background:var(--blue);color:#fff;padding:clamp(72px,10vw,140px) 0 clamp(40px,6vw,72px)}
+.contact p.lead{font-size:clamp(1.2rem,2vw,1.6rem);max-width:30em;line-height:1.35;font-weight:500}
+.handle{display:block;margin:clamp(24px,4vw,48px) 0;font-stretch:62%;font-weight:900;font-size:clamp(3.2rem,13vw,12rem);line-height:.9;letter-spacing:-.01em;text-decoration:none;word-break:break-all;transition:transform .3s}
+.handle:hover{transform:translateX(12px)}
+.contact .btn{border-color:#fff}
+.contact .btn-solid{background:#fff;color:var(--blue)}
+.contact .btn-solid:hover{background:var(--ink);border-color:var(--ink);color:#fff}
+.topics{margin-top:22px;font-weight:500;opacity:.9}
+
+/* ---------- FOOTER ---------- */
+footer{background:var(--ink);padding:36px 0}
+.foot{display:flex;flex-wrap:wrap;gap:12px 32px;justify-content:space-between;color:var(--mute);font-size:.92rem}
+.foot a{text-decoration:none}.foot a:hover{color:var(--bone)}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width:860px){
+  .menu-btn{display:block}
+  .nav{background:rgba(15,16,18,.92);backdrop-filter:blur(12px)}
+  .nav ul{display:none;position:absolute;top:68px;left:0;right:0;background:var(--ink);flex-direction:column;align-items:flex-start;gap:0;padding:8px clamp(20px,4vw,48px) 24px;border-bottom:1px solid rgba(239,233,223,.2)}
+  .nav ul.open{display:flex}
+  .nav ul li{width:100%;padding:14px 0;border-bottom:1px solid rgba(239,233,223,.12)}
+  .nav ul li:last-child{border:0;padding-top:20px}
+  .hero{align-items:end}
+  .hero-photo{width:100%;height:68%;bottom:auto}
+  .hero-photo::after{background:linear-gradient(0deg,var(--ink) 0%,rgba(15,16,18,.2) 45%,rgba(15,16,18,0) 100%)}
+  .hero-copy{padding-top:36vh}
+  .about-grid{grid-template-columns:1fr}
+  .facts div{grid-template-columns:1fr;gap:2px}
+  .row{grid-template-columns:1fr;gap:12px}
+  .btn{flex:1;text-align:center}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important}
+  h1 span i{transform:none}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav">
+  <div class="wrap nav-in">
+    <a class="logo" href="#top">Musthafa NK</a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="menu">Menu</button>
+    <nav aria-label="Main">
+      <ul id="menu">
+        <li><a class="l" href="#about">About</a></li>
+        <li><a class="l" href="#services">Services</a></li>
+        <li><a class="l" href="#contact">Contact</a></li>
+        <li><a class="pill" href="https://www.instagram.com/musthu567" target="_blank" rel="noopener">Book on Instagram</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <section class="hero" id="top">
+    <div class="hero-photo">
+      <img src="20260415_224658.jpg" alt="Musthafa NK, hair stylist in Dubai" fetchpriority="high"
+           onerror="this.onerror=null;this.src='https://placehold.co/900x1200/1a1c1f/efe9df?text=Musthafa+NK';">
+    </div>
+    <div class="wrap hero-copy">
+      <h1 aria-label="Musthafa NK"><span><i>Musthafa</i></span><span><i>NK</i></span></h1>
+      <div class="hero-meta">
+        <p>Hair stylist and entrepreneur in Dubai. Over ten years of cutting, styling and building.</p>
+        <div class="hero-cta">
+          <a class="btn btn-solid" href="https://www.instagram.com/musthu567" target="_blank" rel="noopener">Contact me</a>
+          <a class="btn btn-line" href="#services">See what I do</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>Modelling hair styling</span><span>International hair cutting</span><span>Dubai businessman</span>
+      <span>Modelling hair styling</span><span>International hair cutting</span><span>Dubai businessman</span>
+      <span>Modelling hair styling</span><span>International hair cutting</span><span>Dubai businessman</span>
+      <span>Modelling hair styling</span><span>International hair cutting</span><span>Dubai businessman</span>
+    </div>
+  </div>
+
+  <section class="about" id="about">
+    <div class="wrap about-grid">
+      <h2>About</h2>
+      <div>
+        <p class="statement">Ten years behind the chair and a business to run. Every cut gets the same attention, whether it is for the camera or for a regular client.</p>
+        <dl class="facts">
+          <div><dt>Place</dt><dd>Dubai, UAE</dd></div>
+          <div><dt>Employment</dt><dd>Professional hair stylist and entrepreneur</dd></div>
+          <div><dt>Experience</dt><dd>10+ years in the styling industry</dd></div>
+          <div><dt>Instagram</dt><dd><a href="https://www.instagram.com/musthu567" target="_blank" rel="noopener">@musthu567</a></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="wrap">
+      <h2>What I do</h2>
+      <ul class="rows">
+        <li class="row"><h3>Modelling hair styling</h3><p>Styling for shoots and shows, finished to look right on camera and in person.</p></li>
+        <li class="row"><h3>International hair cutting</h3><p>Clean, precise cuts using techniques learned and refined across markets.</p></li>
+        <li class="row"><h3>Dubai business</h3><p>Running and growing ventures in the city, with the same discipline as the chair.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="quote" aria-label="Philosophy">
+    <div class="wrap">
+      <blockquote>Style is a statement. Let yours speak volumes.</blockquote>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="wrap">
+      <p class="lead">For grooming sessions, brand partnerships and business inquiries, message me on Instagram.</p>
+      <a class="handle" href="https://www.instagram.com/musthu567" target="_blank" rel="noopener">@musthu567</a>
+      <a class="btn btn-solid" href="https://www.instagram.com/musthu567" target="_blank" rel="noopener">Message on Instagram</a>
+      <p class="topics">Grooming sessions · Brand partnerships · Business inquiries</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© <span id="yr">2026</span> Musthafa NK</span>
+    <span>Dubai, UAE</span>
+    <a href="#top">Back to top</a>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var b=document.getElementById('menuBtn'),m=document.getElementById('menu');
+  function set(o){m.classList.toggle('open',o);b.setAttribute('aria-expanded',o);b.textContent=o?'Close':'Menu';}
+  b.addEventListener('click',function(){set(!m.classList.contains('open'));});
+  m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){set(false);});});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
